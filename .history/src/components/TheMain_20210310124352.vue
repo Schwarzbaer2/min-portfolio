@@ -13,7 +13,6 @@ export default {
   name: 'TheMain',
   components: {
     MainHero,
-    MainAbout,
   },
 }
 </script>

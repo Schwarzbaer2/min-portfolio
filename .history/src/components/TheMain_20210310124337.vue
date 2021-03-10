@@ -1,7 +1,6 @@
 <template>
   <main>
     <MainHero />
-    <MainAbout />
   </main>
 </template>
 
@@ -13,7 +12,6 @@ export default {
   name: 'TheMain',
   components: {
     MainHero,
-    MainAbout,
   },
 }
 </script>
