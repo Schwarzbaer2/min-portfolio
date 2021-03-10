@@ -1,19 +1,17 @@
 <template>
-  <header class="font-publicSans text-grayBlue">
+  <header>
     <nav>
-      <div
-        class="flex items-center justify-between px-8 pt-8 pb-10 md:px-10 md:pt-16 md:pb-11 xl:px-40 xl:pb-14"
-      >
+      <div class="flex items-center justify-between px-8 pt-8 pb-10 ">
         <img src="../assets/images/logo_dark.svg" />
         <img
           class="visible w-6 h-3 md:invisible"
           src="../assets/images/icons/hamburger.svg"
         />
-        <div class="hidden md:flex ">
-          <ul class="uppercase md:flex md:flex-row">
+        <div class="hidden ">
+          <ul class="md:flex md:flex-row">
             <li>Home</li>
-            <li class="pl-9">Portfolio</li>
-            <li class="pl-9">Contact</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
           </ul>
         </div>
       </div>
