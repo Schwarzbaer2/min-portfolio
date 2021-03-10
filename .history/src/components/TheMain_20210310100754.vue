@@ -1,17 +1,14 @@
 <template>
   <main>
-    <MainHero />
+    <h1 class="font-ibarra">Main</h1>
   </main>
 </template>
 
 <script>
-import MainHero from './MainHero.vue'
+import TheMain from './components/TheMain.vue'
 
 export default {
   name: 'TheMain',
-  components: {
-    MainHero,
-  },
 }
 </script>
 

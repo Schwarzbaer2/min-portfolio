@@ -1,0 +1,12 @@
+<template>
+  <button
+    class="flex w-48 h-12 text-white uppercase outline-none bg-darkBlue font-publicSans"
+  >
+    <img class="h-12 bg-black" src="../assets/images/icons/down-arrows.svg" />
+    Base Button
+  </button>
+</template>
+
+<script></script>
+
+<style></style>

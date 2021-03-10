@@ -20,7 +20,7 @@
     >
       <div>
         <h1
-          class="pt-6 text-4xl font-bold leading-10 tracking-tight xl:text-5xl md:pt-14 font-ibarra"
+          class="pt-6 text-4xl font-bold leading-10 tracking-tight md:pt-14 font-ibarra"
         >
           Hey, I’m Alex Spencer and I love building beautiful websites
         </h1>

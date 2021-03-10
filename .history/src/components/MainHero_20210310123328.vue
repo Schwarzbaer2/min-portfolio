@@ -16,11 +16,11 @@
     </div>
 
     <div
-      class="bottom-0 md:bg-lightGrey md:absolute md:w-4/6 md:h-2/4 md:flex md:flex-col md:justify-between xl:w-2/6 xl:h-3/6"
+      class="bottom-0 md:bg-lightGrey md:absolute md:w-4/6 md:h-2/4 md:flex md:flex-col md:justify-between xl:w-96 xl:h-96"
     >
       <div>
         <h1
-          class="pt-6 text-4xl font-bold leading-10 tracking-tight xl:text-5xl md:pt-14 font-ibarra"
+          class="pt-6 text-4xl font-bold leading-10 tracking-tight md:pt-14 font-ibarra"
         >
           Hey, I’m Alex Spencer and I love building beautiful websites
         </h1>
