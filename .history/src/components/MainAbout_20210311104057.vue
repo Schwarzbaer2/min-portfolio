@@ -32,7 +32,7 @@
           run or cycling. I’d love you to check out my work.
         </p>
         <div class="pt-6">
-          <base-button>Got to Portfolio</base-button>
+          <base-button></base-button>
         </div>
       </div>
     </div>

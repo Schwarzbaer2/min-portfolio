@@ -2,7 +2,6 @@
   <main>
     <MainHero />
     <MainAbout />
-    <MainContact />
   </main>
 </template>
 

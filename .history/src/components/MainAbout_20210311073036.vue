@@ -1,5 +1,5 @@
 <template>
-  <section class="px-8 pt-16 md:px-10 xl:px-40">
+  <section class="px-8 pt-24 md:px-10 xl:px-40">
     <div class="flex flex-col md:flex-row">
       <img
         class="md:hidden "
@@ -31,19 +31,14 @@
           outdoors. I love being out in nature whether that’s going for a walk,
           run or cycling. I’d love you to check out my work.
         </p>
-        <div class="pt-6">
-          <base-button>Got to Portfolio</base-button>
-        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue'
 export default {
   name: 'MainAbout',
-  components: { BaseButton },
 }
 </script>
 

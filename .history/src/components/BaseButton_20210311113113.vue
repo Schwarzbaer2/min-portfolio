@@ -1,11 +1,6 @@
 <template>
   <button
-    :class="[
-      `bg-${color}`,
-      `hover:bg-${hover}`,
-      `text-${textClr}`,
-      `hover:text-white`,
-    ]"
+    :class="[`bg-${color}`, `hover:bg-${hover}`, `text-${textClr}`]"
     class="flex items-center justify-between h-12 leading-3 tracking-widest uppercase outline-none w-52 font-publicSans"
   >
     <img class="h-12 bg-black " src="../assets/images/icons/down-arrows.svg" />

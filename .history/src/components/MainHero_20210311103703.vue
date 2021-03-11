@@ -26,7 +26,7 @@
         </h1>
       </div>
       <div class="pt-8 md:pt-0">
-        <base-button>About me</base-button>
+        <base-button></base-button>
       </div>
     </div>
   </section>

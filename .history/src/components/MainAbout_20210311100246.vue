@@ -32,7 +32,7 @@
           run or cycling. I’d love you to check out my work.
         </p>
         <div class="pt-6">
-          <base-button>Got to Portfolio</base-button>
+          <BaseButtonSecondary />
         </div>
       </div>
     </div>
@@ -40,10 +40,10 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue'
+import BaseButtonSecondary from './BaseButtonSecondary.vue'
 export default {
   name: 'MainAbout',
-  components: { BaseButton },
+  components: { BaseButtonSecondary },
 }
 </script>
 

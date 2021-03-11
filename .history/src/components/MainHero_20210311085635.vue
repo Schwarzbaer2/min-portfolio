@@ -26,19 +26,19 @@
         </h1>
       </div>
       <div class="pt-8 md:pt-0">
-        <base-button>About me</base-button>
+        <BaseButton />
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue'
+import BaseButton from './BaseButtonPrimary.vue'
 
 export default {
   name: 'MainHero',
   components: {
-    BaseButton,
+    BaseButtonPrimary,
   },
 }
 </script>
