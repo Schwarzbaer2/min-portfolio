@@ -13,7 +13,7 @@
           <ul class="uppercase md:flex md:flex-row">
     <li class="pl-9"><router-link :to="{ name: 'TheMain' }">Home</router-link></li>
     <li class="pl-9"><router-link :to="{ name: 'Portfolio' }">Portfolio</router-link></li>
-    <li class="pl-9"><router-link :to="{ name: 'Contact' }">Contact</router-link></li>
+    <li class="pl-9"><router-link :to="{ name: 'TheMain' }">Contact</router-link></li>
     </ul>
     </div>
   </div>

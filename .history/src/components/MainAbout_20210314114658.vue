@@ -32,7 +32,8 @@
           run or cycling. I’d love you to check out my work.
         </p>
         <div class="pt-6">
-          <base-button>Go to Portfolio</base-button>
+          Go to Portfolio
+          <base-button><router-link :to="{ name: 'Contact' }">Contact</router-link></base-button>
         </div>
       </div>
     </div>

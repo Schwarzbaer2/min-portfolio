@@ -33,6 +33,7 @@
         </p>
         <div class="pt-6">
           <base-button>Go to Portfolio</base-button>
+          <router-link :to="{ name: 'Contact' }">Contact</router-link>
         </div>
       </div>
     </div>

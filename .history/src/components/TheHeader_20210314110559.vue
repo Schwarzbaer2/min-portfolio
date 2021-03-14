@@ -11,7 +11,8 @@
         />
         <div class="hidden md:flex ">
           <ul class="uppercase md:flex md:flex-row">
-            <li>Home</li>
+
+
             <li class="pl-9">Portfolio</li>
             <li class="pl-9">Contact</li>
           </ul>

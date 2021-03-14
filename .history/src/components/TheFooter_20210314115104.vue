@@ -12,7 +12,7 @@
       >
         <li class="mb-8 md:mb-0 md:pr-9"><router-link :to="{ name: 'TheMain' }">Home</router-link></li>
         <li class="mb-8 md:mb-0 md:pr-9"><router-link :to="{ name: 'Portfolio' }">Portfolio</router-link></li>
-        <li class="mb-8 md:mb-0 md:pr-9"><router-link :to="{ name: 'Contact' }">Contact me</router-link></li>
+        <li class="md:pl-9">Contact me</li>
       </ul>
     </div>
     <div class="flex my-10">
