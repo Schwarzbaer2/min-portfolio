@@ -1,23 +1,20 @@
 <template>
-  <div class="px-8 pt-24">
+  <div>
     <PortfolioCard
       v-for="project in projects"
       :key="project.id"
       :project="project"
     />
   </div>
-  <TheFooter />
 </template>
 
 <script>
 import PortfolioCard from './PortfolioCard.vue'
-import TheFooter from './TheFooter.vue'
 
 export default {
   name: 'ThePortfolio',
   components: {
-    PortfolioCard,
-    TheFooter
+    PortfolioCard
   },
   data() {
     return {

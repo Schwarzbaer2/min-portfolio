@@ -6,18 +6,15 @@
       :project="project"
     />
   </div>
-  <TheFooter />
 </template>
 
 <script>
 import PortfolioCard from './PortfolioCard.vue'
-import TheFooter from './TheFooter.vue'
 
 export default {
   name: 'ThePortfolio',
   components: {
-    PortfolioCard,
-    TheFooter
+    PortfolioCard
   },
   data() {
     return {

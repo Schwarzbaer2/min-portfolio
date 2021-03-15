@@ -1,23 +1,22 @@
 <template>
-  <div class="px-8 pt-24">
+  <div>
+    <h2>The Portfolio</h2>
+
     <PortfolioCard
       v-for="project in projects"
       :key="project.id"
       :project="project"
     />
   </div>
-  <TheFooter />
 </template>
 
 <script>
 import PortfolioCard from './PortfolioCard.vue'
-import TheFooter from './TheFooter.vue'
 
 export default {
   name: 'ThePortfolio',
   components: {
-    PortfolioCard,
-    TheFooter
+    PortfolioCard
   },
   data() {
     return {
@@ -74,51 +73,26 @@ export default {
         },
         {
           id: 3,
-          title: 'Insure',
+          title: 'Bookmark',
 
-          mobileImg: require('../assets/images/portfolio/mobile/image-portfolio-insure@2x.jpg'),
-          tabletImg: require('../assets/images/portfolio/tablet/image-portfolio-insure@2x.jpg'),
-          desktopImg: require('../assets/images/portfolio/desktop/image-portfolio-insure@2x.jpg'),
-          mobileHero: require('../assets/images/detail/mobile/image-insure-hero@2x.jpg'),
-          mobilePreview1: require('../assets/images/detail/mobile/image-insure-preview-1@2x.jpg'),
-          mobilePreview2: require('../assets/images/detail/mobile/image-insure-preview-2@2x.jpg'),
+          mobileImg: require('../assets/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg'),
+          tabletImg: require('../assets/images/portfolio/tablet/image-portfolio-bookmark@2x.jpg'),
+          desktopImg: require('../assets/images/portfolio/desktop/image-portfolio-bookmark@2x.jpg'),
+          mobileHero: require('../assets/images/detail/mobile/image-bookmark-hero@2x.jpg'),
+          mobilePreview1: require('../assets/images/detail/mobile/image-bookmark-preview-1@2x.jpg'),
+          mobilePreview2: require('../assets/images/detail/mobile/image-bookmark-preview-2@2x.jpg'),
 
-          tabletPreview1: require('../assets/images/detail/tablet/image-insure-preview-1@2x.jpg'),
-          tabletPreview2: require('../assets/images/detail/tablet/image-insure-preview-2@2x.jpg'),
+          tabletPreview1: require('../assets/images/detail/tablet/image-bookmark-preview-1@2x.jpg'),
+          tabletPreview2: require('../assets/images/detail/tablet/image-bookmark-preview-2@2x.jpg'),
 
-          desktopPreview1: require('../assets/images/detail/desktop/image-insure-preview-1@2x.jpg'),
-          desktopPreview2: require('../assets/images/detail/desktop/image-insure-preview-2@2x.jpg'),
+          desktopPreview1: require('../assets/images/detail/desktop/image-bookmark-preview-1@2x.jpg'),
+          desktopPreview2: require('../assets/images/detail/desktop/image-bookmark-preview-2@2x.jpg'),
 
           stack: 'HTML / CSS / JS',
           category: 'Interaction Design / Front End Development',
 
           description:
-            'This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.',
-          background:
-            'This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.'
-        },
-        {
-          id: 4,
-          title: 'Fylo',
-
-          mobileImg: require('../assets/images/portfolio/mobile/image-portfolio-fylo@2x.jpg'),
-          tabletImg: require('../assets/images/portfolio/tablet/image-portfolio-fylo@2x.jpg'),
-          desktopImg: require('../assets/images/portfolio/desktop/image-portfolio-fylo@2x.jpg'),
-          mobileHero: require('../assets/images/detail/mobile/image-fylo-hero@2x.jpg'),
-          mobilePreview1: require('../assets/images/detail/mobile/image-fylo-preview-1@2x.jpg'),
-          mobilePreview2: require('../assets/images/detail/mobile/image-fylo-preview-2@2x.jpg'),
-
-          tabletPreview1: require('../assets/images/detail/tablet/image-fylo-preview-1@2x.jpg'),
-          tabletPreview2: require('../assets/images/detail/tablet/image-fylo-preview-2@2x.jpg'),
-
-          desktopPreview1: require('../assets/images/detail/desktop/image-fylo-preview-1@2x.jpg'),
-          desktopPreview2: require('../assets/images/detail/desktop/image-fylo-preview-2@2x.jpg'),
-
-          stack: 'HTML / CSS',
-          category: 'Interaction Design / Front End Development',
-
-          description:
-            'This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.',
+            'This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.',
           background:
             'This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.'
         }
