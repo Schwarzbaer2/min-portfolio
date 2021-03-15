@@ -26,7 +26,7 @@
         </h1>
       </div>
       <div class="pt-8 md:pt-0">
-        <base-button buttonType="primary">About me</base-button><br />
+        <base-button buttonType="primary">Primary</base-button><br />
       </div>
     </div>
   </section>

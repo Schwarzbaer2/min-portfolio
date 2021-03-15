@@ -32,7 +32,8 @@
           run or cycling. I’d love you to check out my work.
         </p>
         <div class="pt-6">
-          <base-button buttonType="secondary">Go to portfolio</base-button>
+          <base-button buttonType="primary" /> <br />
+          <base-button buttonType="primary" />
         </div>
       </div>
     </div>

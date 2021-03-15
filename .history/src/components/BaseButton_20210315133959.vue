@@ -1,12 +1,12 @@
 <template>
   <button
-    class="px-6 py-2 "
+    class="px-3 py-2"
     :class="[
       {
         'bg-darkBlue  hover:bg-hoverGreen text-white': buttonType === 'primary'
       },
       {
-        'bg-white  hover:bg-darkBlue hover:text-white border-black border-solid border-2':
+        'bg-white border-yellow-200 hover:bg-darkBlue hover:text-white ':
           buttonType === 'secondary'
       }
     ]"

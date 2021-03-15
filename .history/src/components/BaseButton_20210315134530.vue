@@ -6,7 +6,7 @@
         'bg-darkBlue  hover:bg-hoverGreen text-white': buttonType === 'primary'
       },
       {
-        'bg-white  hover:bg-darkBlue hover:text-white border-black border-solid border-2':
+        'bg-white  hover:bg-darkBlue hover:text-white border-black border-solid border-4 h-12':
           buttonType === 'secondary'
       }
     ]"
