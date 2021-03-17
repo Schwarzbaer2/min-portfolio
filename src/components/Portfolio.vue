@@ -1,9 +1,10 @@
 <template>
-  <div class="px-8 pt-10 md:px-10 md:pt-16 xl:pl-40 xl:pr-56">
+  <div class="px-8 pt-10  md:px-10 md:pt-16 xl:pl-40 xl:pr-56">
     <PortfolioCard
       v-for="project in projects"
       :key="project.id"
       :project="project"
+   
     />
   </div>
   <TheFooter />
@@ -19,6 +20,7 @@ export default {
     PortfolioCard,
     TheFooter
   },
+  
   data() {
     return {
       projects: [
