@@ -35,8 +35,6 @@
   </div>
 
 
-
-
   <div class="pb-16 border-b pt-14 md:pt-0 md:pb-0 xl:py-32 xl:w-4/6 ">
     <div
       class="text-4xl font-bold leading-loose tracking-tight text-center font-ibarra"
@@ -47,7 +45,9 @@
       {{ project.description }}
     </div>
     <div class="py-6"> 
+     
     <base-button buttonType="secondary">View Project</base-button>
+     
     </div>
   </div>
 </section>
@@ -63,9 +63,9 @@ export default {
       type: Object,
       required: true
     },
-    
- 
+   
   },
+ 
    components: { BaseButton }
 }
 </script>
