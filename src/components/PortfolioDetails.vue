@@ -1,7 +1,7 @@
 <template>
 <div>
  
-    <h1>{{ this.project.title }}</h1>
+    <h1>{{project.title }}</h1>
   <h2>Hallo</h2>
 
  </div>
@@ -10,10 +10,16 @@
 
 
 <script>
- 
+
 
 export default {
+  data() {
 
-
+    }
 }
+
 </script>
+
+
+
+

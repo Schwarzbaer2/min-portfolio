@@ -38,21 +38,4 @@ created() {
   }
 
    }
-
-
-
-
-
-
-/*
- async mounted () {
-  const pathRegex = /^\.\.\/assets\/portfolio\//
-  const { data } = await axios.get("data.json")
-  this.projects = data.map(project => ({
-    ...project,
-    src: require(`../assets/portfolio${project.src.replace(pathRegex, "")}`)
-  }))
-
-}
-} */
 </script>
