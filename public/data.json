@@ -8,20 +8,22 @@
       "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
       "background": "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
 
-      "mobileImg": "../assets/images/portfolio/mobile/image-portfolio-manage@2x.jpg", 
-      "tabletImg": "../assets/images/portfolio/tablet/image-portfolio-manage@2x.jpg",
-      "desktopImg": "../assets/images/portfolio/desktop/image-portfolio-manage@2x.jpg",
+      "mobileImg":  "mobile-portfolio-manage.jpg", 
+      "tabletImg": "tablet-portfolio-manage.jpg",
+      "desktopImg": "desktop-portfolio-manage.jpg",
 
-      "mobileHero": "../assets/images/detail/mobile/image-manage-hero@2x.jpg",
+      "mobileHero": "mobile-manage-hero.jpg",
+      "tabletHero": "tablet-manage-hero.jpg",
+      "desktopHero": "desktop-manage-hero.jpg",
 
-      "mobilePreview1": "../assets/images/detail/mobile/image-manage-preview-1@2x.jpg",
-      "mobilePreview2": "../assets/images/detail/mobile/image-manage-preview-2@2x.jpg",
+      "mobilePreview1": "mobile-manage-preview-1.jpg",
+      "mobilePreview2": "mobile-manage-preview-2.jpg",
     
-      "tabletPreview1": "../assets/images/detail/tablet/image-manage-preview-1@2x.jpg",
-      "tabletPreview2": "../assets/images/detail/tablet/image-manage-preview-2@2x.jpg",
+      "tabletPreview1": "tablet-manage-preview-1.jpg",
+      "tabletPreview2": "tablet-manage-preview-2.jpg",
 
-      "desktopPreview1": "../assets/images/detail/desktop/image-manage-preview-1@2x.jpg",
-      "desktopPreview2": "../assets/images/detail/desktop/image-manage-preview-2@2x.jpg"
+      "desktopPreview1": "desktop-manage-preview-1.jpg",
+      "desktopPreview2": "desktop-manage-preview-2.jpg"
     },
 
     {
@@ -33,20 +35,22 @@
       "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
       "background": "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
 
-      "mobileImg": "../assets/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg",
-      "tabletImg": "../assets/images/portfolio/tablet/image-portfolio-bookmark@2x.jpg",
-      "desktopImg": "../assets/images/portfolio/desktop/image-portfolio-bookmark@2x.jpg",
+      "mobileImg": "mobile-portfolio-bookmark.jpg",
+      "tabletImg": "tablet-portfolio-bookmark.jpg",
+      "desktopImg": "desktop-portfolio-bookmark.jpg",
 
-      "mobileHero": "../assets/images/detail/mobile/image-bookmark-hero@2x.jpg",
+      "mobileHero": "mobile-bookmark-hero.jpg",
+      "tabletHero": "tablet-bookmark-hero.jpg",
+      "desktopHero": "desktop-bookmark-hero.jpg",
 
-      "mobilePreview1": "../assets/images/detail/mobile/image-bookmark-preview-1@2x.jpg",
-      "mobilePreview2": "../assets/images/detail/mobile/image-bookmark-preview-2@2x.jpg",
+      "mobilePreview1": "mobile-bookmark-preview-1.jpg",
+      "mobilePreview2": "mobile-bookmark-preview-2.jpg",
     
-      "tabletPreview1": "../assets/images/detail/tablet/image-bookmark-preview-1@2x.jpg",
-      "tabletPreview2": "../assets/images/detail/tablet/image-bookmark-preview-2@2x.jpg",
+      "tabletPreview1": "tablet-bookmark-preview-1.jpg",
+      "tabletPreview2": "tablet-bookmark-preview-2.jpg",
 
-      "desktopPreview1": "../assets/images/detail/desktop/image-bookmark-preview-1@2x.jpg",
-      "desktopPreview2": "../assets/images/detail/desktop/image-bookmark-preview-2@2x.jpg"
+      "desktopPreview1": "desktop-bookmark-preview-1.jpg",
+      "desktopPreview2": "desktop-bookmark-preview-2.jpg"
     },
     {
       "id": 3, 
@@ -57,20 +61,22 @@
       "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
       "background": "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
 
-      "mobileImg": "../assets/images/portfolio/mobile/image-portfolio-insure@2x.jpg",
-      "tabletImg": "../assets/images/portfolio/tablet/image-portfolio-insure@2x.jpg",
-      "desktopImg": "../assets/images/portfolio/desktop/image-portfolio-insure@2x.jpg",
+      "mobileImg": "mobile-portfolio-insure.jpg",
+      "tabletImg": "tablet-portfolio-insure.jpg",
+      "desktopImg": "desktop-portfolio-insure.jpg",
 
-      "mobileHero": "../assets/images/detail/mobile/image-insure-hero@2x.jpg",
+      "mobileHero": "mobile-insure-hero.jpg",
+      "tabletHero": "tablet-insure-hero.jpg",
+      "desktopHero": "desktop-insure-hero.jpg",
 
-      "mobilePreview1": "../assets/images/detail/mobile/image-insure-preview-1@2x.jpg",
-      "mobilePreview2": "../assets/images/detail/mobile/image-insure-preview-2@2x.jpg",
+      "mobilePreview1": "mobile-insure-preview-1.jpg",
+      "mobilePreview2": "mobile-insure-preview-2.jpg",
     
-      "tabletPreview1": "../assets/images/detail/tablet/image-insure-preview-1@2x.jpg",
-      "tabletPreview2": "../assets/images/detail/tablet/image-insure-preview-2@2x.jpg",
+      "tabletPreview1": "tablet-insure-preview-1.jpg",
+      "tabletPreview2": "tablet-insure-preview-2.jpg",
 
-      "desktopPreview1": "../assets/images/detail/desktop/image-insure-preview-1@2x.jpg",
-      "desktopPreview2": "../assets/images/detail/desktop/image-insure-preview-2@2x.jpg"
+      "desktopPreview1": "desktop-insure-preview-1.jpg",
+      "desktopPreview2": "desktop-insure-preview-2.jpg"
     },
     {
       "id": 4, 
@@ -81,20 +87,22 @@
       "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
       "background": "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
 
-      "mobileImg": "../assets/images/portfolio/mobile/image-portfolio-fylo@2x.jpg",
-      "tabletImg": "../assets/images/portfolio/tablet/image-portfolio-fylo@2x.jpg",
-      "desktopImg": "../assets/images/portfolio/desktop/image-portfolio-fylo@2x.jpg",
+      "mobileImg": "mobile-portfolio-fylo.jpg",
+      "tabletImg": "tablet-portfolio-fylo.jpg",
+      "desktopImg": "desktop-portfolio-fylo.jpg",
 
-      "mobileHero": "../assets/images/detail/mobile/image-fylo-hero@2x.jpg",
+      "mobileHero": "mobile-fylo-hero.jpg",
+      "tabletHero": "tablet-fylo-hero.jpg",
+      "desktopHero": "desktop-fylo-hero.jpg",
 
-      "mobilePreview1": "../assets/images/detail/mobile/image-fylo-preview-1@2x.jpg",
-      "mobilePreview2": "../assets/images/detail/mobile/image-fylo-preview-2@2x.jpg",
+      "mobilePreview1": "mobile-fylo-preview-1.jpg",
+      "mobilePreview2": "mobile-fylo-preview-2.jpg",
     
-      "tabletPreview1": "../assets/images/detail/tablet/image-fylo-preview-1@2x.jpg",
-      "tabletPreview2": "../assets/images/detail/tablet/image-fylo-preview-2@2x.jpg",
+      "tabletPreview1": "tablet-fylo-preview-1.jpg",
+      "tabletPreview2": "tablet-fylo-preview-2.jpg",
 
-      "desktopPreview1": "../assets/images/detail/desktop/image-fylo-preview-1@2x.jpg",
-      "desktopPreview2": "../assets/images/detail/desktop/image-fylo-preview-2@2x.jpg"
+      "desktopPreview1": "desktop-fylo-preview-1.jpg",
+      "desktopPreview2": "desktop-fylo-preview-2.jpg"
     }
 
   ]

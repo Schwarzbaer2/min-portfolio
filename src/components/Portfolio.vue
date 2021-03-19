@@ -27,7 +27,7 @@ export default {
      projects: []
     }
   },
-  created() {
+created() {
     axios.get('data.json')
       .then(response => {
         this.projects = response.data
@@ -36,5 +36,23 @@ export default {
         console.log(error)
       })
   }
+
+   }
+
+
+
+
+
+
+/*
+ async mounted () {
+  const pathRegex = /^\.\.\/assets\/portfolio\//
+  const { data } = await axios.get("data.json")
+  this.projects = data.map(project => ({
+    ...project,
+    src: require(`../assets/portfolio${project.src.replace(pathRegex, "")}`)
+  }))
+
 }
+} */
 </script>

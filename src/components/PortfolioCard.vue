@@ -5,7 +5,8 @@
    :class="{'md:order-last': project.id % 2 != 1}">
 
     <div class="md:hidden">
-    <img  :src="project.mobileImg" />
+    <img  :src="require(`../assets/portfolio/${project.mobileImg}`)" /> 
+ 
     </div>
     <div class="hidden md:block xl:hidden"
        :class="[
@@ -16,9 +17,9 @@
        'pl-16': project.id % 2 != 1
       }
     ]"
-         
+     
     >
-    <img :src="project.tabletImg" />
+    <img  :src="require(`../assets/portfolio/${project.tabletImg}`)" /> 
     </div>
     <div class="hidden min-w-full pr-32 xl:block"
             :class="[
@@ -30,7 +31,7 @@
       }
     ]"
     >
-    <img  :src="project.desktopImg" />
+     <img  :src="require(`../assets/portfolio/${project.desktopImg}`)" /> 
     </div>
   </div>
 
@@ -56,8 +57,11 @@
 <script>
 import BaseButton from './BaseButton.vue'
 
+
+
 export default {
   name: 'PortfolioCard',
+
   props: {
     project: {
       type: Object,
