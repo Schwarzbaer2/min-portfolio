@@ -1,6 +1,6 @@
 <template>
   <button
-    class="px-6 py-2 "
+    class="px-6 py-2 uppercase "
     :class="[
       {
         'bg-darkBlue  hover:bg-hoverGreen text-white': buttonType === 'primary'

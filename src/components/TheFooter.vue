@@ -16,21 +16,23 @@
         <li class="mb-8 md:mb-0 md:pr-9"><router-link :to="{ name: 'Contact' }">Contact me</router-link></li>
       </ul>
     </div>
-    <div class="flex my-10">
-      <img src="../assets/images/icons/github.svg" />
-      <img class="px-4" src="../assets/images/icons/twitter.svg" />
-      <img src="../assets/images/icons/linkedin.svg" />
-    </div>
+    <div class="my-10 text-white fill-current ">
+    <SocialMedia/>
+      </div>
+
 </div>
  
 </template>
 
 <script>
-
+import SocialMedia from './SocialMedia.vue'
 
 
 export default {
   name: 'TheFooter',
+  components: {
+    SocialMedia,
+  },
   
 }
 </script>
