@@ -11,6 +11,7 @@ module.exports = {
         grayBlue: '#33323D',
         darkBlue: '#203A4C',
         lightGrey: '#FAFAFA',
+        formGrey: '#EAEAEB',
         hoverGreen: '#5FB4A2',
       },
     },
@@ -18,5 +19,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

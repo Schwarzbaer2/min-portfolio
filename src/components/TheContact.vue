@@ -7,7 +7,30 @@
 
 <div>
 <h2 class="text-4xl font-bold leading-10 tracking-tight font-ibarra">Contact Me</h2>
+<form  class="flex flex-col items-center justify-center pt-6 pb-20" action="#" method="POST">
 
+  <div class="flex flex-col w-full">
+
+    <label  class="mb-2 bold" for="name">Name</label>
+    
+    <input class="bg-formGrey text-grayBlue" type="text" name="name" id="name" placeholder="Jane Appleseed" required>
+  </div>
+
+  <div class="flex flex-col w-full ">
+    <label class="pt-6 mb-2" for="email">Email Address</label>
+
+
+    <input class="bg-formGrey" type="email" name="email" id="email" placeholder="email@example.com" required>
+  </div>
+
+  <div class="flex flex-col w-full">
+    <label class="pt-6 mb-2" for="message">Message</label>
+    <textarea class=" bg-formGrey" name="message" id="message" placeholder="How can I help"></textarea>
+  </div>
+  <div class="pt-6">
+  <base-button buttonType="primary">Send Message</base-button><br />
+  </div>
+</form>
 
 </div>
 
@@ -20,11 +43,13 @@
 
 
 <script>
+import BaseButton from './BaseButton.vue'
 import TheFooter from './TheFooter.vue'
 
 export default {
   name: 'TheContact',
   components: {
+    BaseButton,
     TheFooter,
   },
 
