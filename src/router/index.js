@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import TheMain from '../components/TheMain.vue'
-import Portfolio from '../components/Portfolio.vue'
+import ThePortfolio from '../components/ThePortfolio.vue'
 import PortfolioDetails from '../components/PortfolioDetails.vue'
-import Contact from '../components/Contact.vue'
+import TheContact from '../components/TheContact.vue'
 
 const routes = [
     {
@@ -13,7 +13,7 @@ const routes = [
     {
       path: '/portfolio',
       name: 'Portfolio',
-      component: Portfolio
+      component: ThePortfolio
     },
     {
       path: '/portfolio/123',
@@ -23,7 +23,7 @@ const routes = [
     {
       path: '/contact',
       name: 'Contact',
-      component: Contact
+      component: TheContact
     }
   ]
 

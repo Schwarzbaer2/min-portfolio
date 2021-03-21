@@ -2,7 +2,7 @@
   <main>
     <MainHero />
     <MainAbout />
-    <MainContact />
+    <FooterContact />
     <TheFooter />
   </main>
 </template>
@@ -10,7 +10,7 @@
 <script>
 import MainHero from './MainHero.vue'
 import MainAbout from './MainAbout.vue'
-import MainContact from './MainContact.vue'
+import FooterContact from './FooterContact.vue'
 import TheFooter from './TheFooter.vue'
 
 export default {
@@ -18,7 +18,7 @@ export default {
   components: {
     MainHero,
     MainAbout,
-    MainContact,
+    FooterContact,
     TheFooter,
   },
 }

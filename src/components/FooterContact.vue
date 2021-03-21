@@ -22,7 +22,7 @@
 import BaseButton from './BaseButton.vue'
 
 export default {
-  name: 'MainContact',
+  name: 'FooterContact',
   components: {
     BaseButton,
   },

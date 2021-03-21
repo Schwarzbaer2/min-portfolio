@@ -7,18 +7,21 @@
    
     />
   </div>
+  <FooterContact />
   <TheFooter />
 </template>
 
 <script>
 import axios from 'axios';
 import PortfolioCard from './PortfolioCard.vue'
+import FooterContact from './FooterContact.vue'
 import TheFooter from './TheFooter.vue'
 
 export default {
-  name: 'Portfolio',
+  name: 'ThePortfolio',
   components: {
     PortfolioCard,
+    FooterContact,
     TheFooter
   },
   

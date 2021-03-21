@@ -1,5 +1,6 @@
 <template>
-  <footer
+
+<div
     class="flex flex-col items-center text-center md:flex-row md:justify-between md:px-10 xl:px-40 md:h-20 bg-grayBlue font-publicSans"
   >
     <div class="flex flex-col items-center md:flex-row">
@@ -20,12 +21,17 @@
       <img class="px-4" src="../assets/images/icons/twitter.svg" />
       <img src="../assets/images/icons/linkedin.svg" />
     </div>
-  </footer>
+</div>
+ 
 </template>
 
 <script>
+
+
+
 export default {
-  name: 'TheMain',
+  name: 'TheFooter',
+  
 }
 </script>
 
