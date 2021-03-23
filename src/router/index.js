@@ -16,9 +16,10 @@ const routes = [
       component: ThePortfolio
     },
     {
-      path: '/portfolio/123',
+      path: '/portfolio/:id',
       name: 'PortfolioDetails',
-      component: PortfolioDetails
+      component: PortfolioDetails,
+      props:true
     },
     {
       path: '/contact',

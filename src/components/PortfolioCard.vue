@@ -46,9 +46,11 @@
       {{ project.description }}
     </div>
     <div class="py-6"> 
-     
+
+    <router-link :to="{ name: 'PortfolioDetails', params: { id: project.id }}">
     <base-button buttonType="secondary">View Project</base-button>
-     
+    </router-link>
+
     </div>
   </div>
 </section>

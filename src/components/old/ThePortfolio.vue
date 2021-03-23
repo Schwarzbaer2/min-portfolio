@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import PortfolioCard from './PortfolioCard.vue'
 import FooterContact from './FooterContact.vue'
 import TheFooter from './TheFooter.vue'
@@ -29,11 +30,15 @@ export default {
      projects: []
     }
   },
-mounted() {
-        fetch('http://localhost:3000/projects')
-        .then((res) => res.json())
-        .then(data => this.projects = data)
-        .catch(err => console.log(err.message))
-    }
-}
-</script> 
+created() {
+    axios.get('data.json')
+      .then(response => {
+        this.projects = response.data
+      })
+      .catch(error => {
+        console.log(error)
+      })
+  }
+
+   }
+</script>
