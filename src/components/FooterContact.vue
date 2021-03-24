@@ -13,7 +13,9 @@
         </div>
 
         <div class="pt-10 md:pt-0">
-          <base-button buttonType="secondary">Contact me</base-button>
+          <router-link :to="{ name: 'Contact' }">
+            <base-button buttonType="secondary">Contact me</base-button>
+          </router-link>
         </div>
       </div>
     </div>

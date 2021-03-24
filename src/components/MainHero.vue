@@ -2,7 +2,7 @@
   <section class="px-8 md:px-10 xl:px-40 md:relative">
     <div class="flex justify-center ">
       <img
-        class="md:hidden"
+        class="object-scale-down w-full md:hidden"
         src="../assets/images/homepage/mobile/image-homepage-hero@2x.jpg"
       />
       <img
@@ -26,7 +26,9 @@
         </h1>
       </div>
       <div class="pt-8 md:pt-0">
-        <base-button buttonType="primary">About me</base-button><br />
+        <a href="#about">
+          <base-button buttonType="primary">About me</base-button><br />
+        </a>
       </div>
     </div>
   </section>

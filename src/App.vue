@@ -14,9 +14,19 @@
         <div
           @click="toggleMenu"
           :class="openMenu ? 'block' : 'hidden'"
-          class="fixed w-48 top-8 right-8 bg-grayBlue h-52"
+          class="fixed w-48 text-white md:hidden top-8 right-8 bg-grayBlue h-52"
         >
-          This is the modal
+          <ul class="pt-6 uppercase md:flex md:flex-row">
+            <li class="p-3">
+              <router-link :to="{ name: 'TheMain' }">Home</router-link>
+            </li>
+            <li class="p-3">
+              <router-link :to="{ name: 'Portfolio' }">Portfolio</router-link>
+            </li>
+            <li class="p-3">
+              <router-link :to="{ name: 'Contact' }">Contact</router-link>
+            </li>
+          </ul>
         </div>
         <div class="hidden md:flex ">
           <ul class="uppercase md:flex md:flex-row">

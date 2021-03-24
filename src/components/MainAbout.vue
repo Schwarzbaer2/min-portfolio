@@ -2,7 +2,7 @@
   <section class="px-8 pt-16 md:px-10 xl:px-40">
     <div class="flex flex-col md:flex-row">
       <img
-        class="md:hidden "
+        class=" md:hidden"
         src="../assets/images/homepage/mobile/image-homepage-profile@2x.jpg"
       />
       <img
@@ -21,7 +21,7 @@
         >
           About me
         </h2>
-        <p class="leading-7 font-publicSans pt-7 xl:w-4/6">
+        <p id="about" class="leading-7 font-publicSans pt-7 xl:w-4/6">
           I’m a junior front-end developer looking for a new role in an exciting
           company. I focus on writing accessible HTML, using modern CSS
           practices and writing clean JavaScript. When writing JavaScript code,
@@ -32,7 +32,9 @@
           run or cycling. I’d love you to check out my work.
         </p>
         <div class="pt-6">
-          <base-button buttonType="secondary">Go to portfolio</base-button>
+          <router-link :to="{ name: 'Portfolio' }">
+            <base-button buttonType="secondary">Go to portfolio</base-button>
+          </router-link>
         </div>
       </div>
     </div>
