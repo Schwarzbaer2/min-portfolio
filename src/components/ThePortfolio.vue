@@ -4,7 +4,6 @@
       v-for="project in projects"
       :key="project.id"
       :project="project"
-   
     />
   </div>
   <FooterContact />
@@ -23,17 +22,17 @@ export default {
     FooterContact,
     TheFooter
   },
-  
+
   data() {
     return {
-     projects: []
+      projects: []
     }
   },
-mounted() {
-        fetch('http://localhost:3000/projects')
-        .then((res) => res.json())
-        .then(data => this.projects = data)
-        .catch(err => console.log(err.message))
-    }
+  mounted() {
+    fetch('http://localhost:3000/projects')
+      .then(res => res.json())
+      .then(data => (this.projects = data))
+      .catch(err => console.log(err.message))
+  }
 }
-</script> 
+</script>

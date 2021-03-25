@@ -2,7 +2,7 @@
   <section class="px-8 md:px-10 xl:px-40 md:relative">
     <div class="flex justify-center ">
       <img
-        class="object-scale-down w-full md:hidden"
+        class="w-full md:hidden"
         src="../assets/images/homepage/mobile/image-homepage-hero@2x.jpg"
       />
       <img

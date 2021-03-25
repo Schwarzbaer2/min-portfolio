@@ -1,17 +1,18 @@
 <template>
-  <div class="flex flex-col justify-between max-h-6xl ">
- <section> 
- <div class="px-8 pt-16 md:px-10 xl:px-40">
-<ContactInfo />
-<ContactForm />
-</div>
-</section>
+  <div class="flex flex-col content-center justify-between w-screen h-screen">
+    <div class="flex justify-center ">
+      <section class="max-w-7xl">
+        <div class="px-8 pt-16 md:px-10 xl:px-40">
+          <ContactInfo />
 
-<TheFooter  />
+          <ContactForm />
+        </div>
+      </section>
+    </div>
 
-</div>
+    <TheFooter />
+  </div>
 </template>
-
 
 <script>
 import ContactInfo from './ContactInfo.vue'
@@ -24,10 +25,6 @@ export default {
     ContactInfo,
     ContactForm,
     TheFooter
-  },
-
+  }
 }
-
-
-
 </script>
