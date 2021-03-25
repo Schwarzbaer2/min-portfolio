@@ -3,9 +3,16 @@
 ```
 This project required me to build a fully responsive portfolio page to the designs provided. I used Vue3, along with Tailwind-CSS.
 The project uses JSON servers and a local JSON file as a mock-up server. To see the projects, the JSON server must first be started.
+
 ```
 
-## Project setup
+## To-do list
+
+```
+Some details in the design need to be revised. Interactivity and animation have yet to be added.
+```
+
+### Project setup
 
 ```
 npm install
